@@ -1,0 +1,47 @@
+.helping_parent{
+    display: flex;
+    align-items: center;
+    background-color: #F5F7FA;
+    height: 300px;
+    .box_flex{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .helping_box{
+        h1{
+            color: #555;
+            font-size: 40px;
+            letter-spacing: 2px;
+
+            span{
+                color: #28cb51;
+            }
+        }
+        p{
+            font-size: 18px;
+        }
+    }
+    .box_flex2{
+        display: flex;
+        justify-content: space-around;
+        gap: 5rem;
+        .img_box{
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            img{
+                height: 60px;
+            }
+            h2{
+                font-size: 25px;
+                letter-spacing: 2px;
+            }
+            p{
+                font-size: 17px;
+                color: #555;
+            }
+        }
+    }
+}
