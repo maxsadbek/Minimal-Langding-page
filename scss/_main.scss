@@ -207,6 +207,38 @@
   }
 }
 
+.text2 {
+    text-align: center;
+    margin-top: 12rem;
+    width: 60%;
+    h1{
+        font-size: 87px;
+        color: #222;
+        margin-bottom: 3rem;
+    }
+    button{
+        padding: 16px 22px;
+        font-size: 20px;
+        background-color: #28cb51;
+        border: none;
+        color: #fff;
+        border-radius: 7px;
+        transition: all 0.3s ease;
+
+        &:hover{
+            background-color: #fff;
+            color: #28cb51;
+            border: 1px solid #28cb51;
+        }
+
+        &:active{
+            transform: translateY(4px);
+            padding: 14px 18px;
+            font-size: 16px;
+        }
+    }
+}
+
 button {
   cursor: pointer;
 }
