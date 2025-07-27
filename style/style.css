@@ -197,6 +197,10 @@
 .card .card_box .card_div:hover {
   background-color: #f4f4f4;
 }
+.card .card_box .card_div .h2 {
+  font-size: 27px;
+  margin-bottom: 0.5rem;
+}
 .card .card_box .card_div h2 {
   margin-top: 1rem;
   font-size: 25px;
@@ -247,6 +251,94 @@
 
 button {
   cursor: pointer;
+}
+
+footer {
+  background-color: #263239;
+  padding: 3rem;
+  margin-top: 3rem;
+}
+footer .footer_flex {
+  display: flex;
+  justify-content: space-around;
+}
+footer .footer_flex .footer_flex2 {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+footer .footer_flex .footer_flex2 p {
+  font-size: 17px;
+  color: #fff;
+  line-height: 3;
+  cursor: pointer;
+}
+footer .footer_flex .footer_flex2 .input h3 {
+  color: #fff;
+  margin-bottom: 2rem;
+}
+footer .footer_flex .footer_flex2 .input_footer {
+  align-items: center;
+}
+footer .footer_flex .footer_flex2 .input_footer i {
+  margin-left: -2.4rem;
+  margin-top: 10px;
+  position: absolute;
+  font-size: 30px;
+  color: #fff;
+}
+footer .footer_flex .footer_flex2 .input_footer input {
+  position: relative;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.2392156863);
+  border: none;
+  border-radius: 10px;
+}
+footer .footer_flex .footer_flex2 input::placeholder {
+  color: #fff;
+}
+footer .footer_box p {
+  color: #fff;
+  font-size: 20px;
+  width: 65%;
+  line-height: 1.7;
+  margin-top: 1rem;
+}
+footer .footer_logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+footer .footer_logo span {
+  font-size: 35px;
+  color: #fff;
+  font-weight: 800;
+}
+footer .icon {
+  display: flex;
+  width: 35%;
+  gap: 3rem;
+  margin-top: 2rem;
+  color: #fff;
+}
+footer .icon i {
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(68, 68, 68, 0.3882352941);
+  background-color: rgba(68, 68, 68, 0.3882352941);
+  padding: 10px;
+  font-size: 25px;
+  border-radius: 50%;
+  transition: all 0.4s ease;
+}
+footer .icon i:hover {
+  box-shadow: #fff;
+  -webkit-box-shadow: 0px 3px 8px 0px rgba(255, 255, 255, 0.2);
+  -moz-box-shadow: 0px 3px 8px 0px rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 3px 8px 0px rgba(255, 255, 255, 0.2);
+}
+footer .footer_text h3 {
+  color: #fff;
+  font-size: 22px;
 }
 
 /*# sourceMappingURL=style.css.map */
