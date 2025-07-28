@@ -94,6 +94,7 @@
   display: flex;
   justify-content: space-between;
   gap: 0rem;
+  margin-top: 5rem;
 }
 
 .smith_box {
@@ -120,7 +121,7 @@
     align-items: center;
     justify-content: space-between;
     img {
-      width: 100px;
+      width: 70px;
       height: 70px;
       transition: all 0.3s ease;
       &:hover {
@@ -129,7 +130,7 @@
     }
     a {
       text-decoration: none;
-      font-size: 23px;
+      font-size: 18px;
       color: #28cb51;
       transition: all 0.4s ease;
       &:hover {
@@ -137,11 +138,15 @@
       }
     }
   }
+  .a{
+    display: flex;
+    align-items: center;
+  }
 }
 
 .text {
   text-align: center;
-  margin-top: 4rem;
+  margin-top: 8rem;
   width: 60%;
   h1 {
     font-size: 50px;
@@ -157,10 +162,10 @@
   }
 }
 
-.card {
+.card1 {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  gap: 3rem;
   .card_box {
     width: 450px;
     position: relative;
@@ -187,7 +192,7 @@
         background-color: #f4f4f4;
       }
       .h2{
-        font-size: 27px;
+        font-size: 28px;
         margin-bottom: 0.5rem;
       }
       h2 {
